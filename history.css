@@ -1,0 +1,372 @@
+*{
+    box-sizing: border-box;
+font-family: 'Work Sans',sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 3400px;
+}
+/* section one */
+.one{
+    width: 100%;
+    height:21%;
+    background-image: url(./image/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+:is(.one ,.five) .container{
+    width: 60%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 7% 7% 0px;
+}
+.one .container .c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c img{
+    width: 100px;
+}
+.container h1{
+    color: #505559;
+    font-size: 40px;
+    padding-top: 1%;
+}
+.container p{
+    color: #adaeb0;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-top: -2%;
+}
+.buttons {
+    margin: 5%;
+    display: flex;
+}
+.buttons button{
+    background: #27bba3;
+    padding: 4%;
+    color: white;
+    border-radius: 30px;
+    width: 185px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 0px 0px #1e9581;
+    margin-right: 3%;
+}
+.buttons button:last-child{
+    background: #6174fe;
+    box-shadow: 0px 3px 0px 0px #4e5dcd;
+}
+.buttons button:hover{
+    opacity: 0.7;
+}
+.text{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+:is(.text , .top ,.first) h3{
+    font-size: 35px;
+    color: #464b4f;
+}
+:is(.text, .top,.first) p {
+    color: #adaeb0;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 16px;
+    margin-top: -1%;
+    padding: 0 14%;
+}
+/* section two */
+.two{
+    width: 100%;
+    height:19%;
+    display: flex;
+    overflow: hidden;
+    margin-top: 3%;
+}
+.two .left{
+    width: 55%;
+    height: 100%;
+}
+.left img{
+    width: 98%;
+    height: 100%;
+    margin-left: -7%;
+}
+.two .right {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20% 0 3%;
+
+}
+:is(.right , .second div) h4{
+    color: #464b4f;
+    font-size: 23px;
+}
+:is(.right, .second div) p {
+    color: #adaeb0;
+    line-height: 1.7;
+    margin-top: -4%;
+}
+
+/* section three */
+.three{
+    width: 100%;
+    height:20%;
+    display: flex;
+    flex-direction: column;
+}
+.three .top{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24%;
+}
+.three .bottom {
+    width: 100%;
+    height: 75%;
+}
+.bottom img{
+    margin-left: 20%;
+    width: 55%;
+    margin-top: 2%;
+}
+/* section four */
+.four {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.four .first{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24%;
+}
+.four .first p{
+    word-spacing: 2px;
+    font-size: 17px;
+    margin-top: -2%;
+}
+.four .second {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.second div{
+    flex: 1;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 6%;
+}
+.second div p{
+    text-align: center;
+}
+.four .third {
+    width: 100%;
+    height: 28%;
+    display: flex;
+    flex-direction: row;
+}
+.third div {
+    flex: 1;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third div img{
+    height: 25%;
+}
+
+/* section five */
+.five {
+    width: 100%;
+    height: 14%;
+    display: flex;
+    flex-direction: column;
+}
+.five .container{
+    margin-left: 19%;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 4%;
+    display: flex;
+    background: #f5f6f8;
+    flex-direction: row;
+}
+footer .logo{
+    width: 3%;
+    height: 32%;
+    margin: 3% 0 3% 8%;
+}
+footer .logo img{
+    width: 100%;
+    height: 100%;
+}
+footer .columns {
+    width: 55%;
+    height: 100%;
+    margin-left: 8%;
+    display: flex;
+}
+footer .columns div{
+flex: 1;
+color: #868a8d;
+font-size: 17px;
+padding: 2%;
+}
+.columns div p{
+    font-weight: 600;
+}
+footer .columns div p:hover {
+    color: #2cbba9;
+    cursor: pointer;
+}
+footer .media {
+    width: 18%;
+    height: 100%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .media img{
+    padding-left: 10%;
+
+}
+footer .media img:hover {
+    color: #2cbba9;
+    cursor: pointer;
+}
+
+/* media mobile */
+@media only screen and (max-width: 768px) {
+    .one{
+        padding-top: 60%;
+    }
+    :is(.one, .five) .container {
+        width: 100%;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .buttons button{
+    margin: 6% 0;
+    height: 40px;
+    }
+    .one .text{
+    width: 100%;
+    text-align: center;
+    padding: 26% 0;
+    }
+    .two {
+        margin-top: 85%;
+        flex-direction: column;
+        height: 23%;
+
+    }
+    .two .left {
+        width: 100%;
+    }
+    .two .left img{
+        margin: 0;
+    }
+    .two .right{
+    margin: 6% 8%;
+    text-align: center;
+    width:85%;
+    padding: 0;
+    }
+    .three{
+        margin-top: 35%;
+    }
+    .three .top{
+padding: 0 5%;
+text-align: center;
+    }
+    .three .bottom{
+        height: 35%;
+    }
+    .three .bottom img{
+    margin-left: 0;
+     width: 100%;
+    margin-top: 25%;
+    height: 100%;
+    }
+    .four .first{
+    padding: 0 6%;
+    text-align: center;
+    }
+    .four .second{
+flex-direction: column;
+margin-top: 12%;
+height: 95%;
+    }
+    .four .third{
+    flex-direction: column;
+    }
+.third div img {
+    height: 80%;
+}
+.third div{
+    padding-top: 8%;
+}
+.five{
+        margin-top: 150%;
+        margin-left: -17%;
+}
+    footer{
+        flex-direction: column;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15%;
+
+    }
+    footer .logo {
+    width: 20%;
+    height: 30%;
+    margin-top: 8%;
+    }
+    footer .columns{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .media img {
+        padding-left: 50%;
+    }
+}
